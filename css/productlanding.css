@@ -34,11 +34,11 @@ body, h1, h2, h3, p, ul, li, form {
   }
   
   #hero {
-    background-image:url("hero-backmac.jpg");
+    background-image:url("../background01.jpg");
     background-size: cover;
     background-position: center;
-    color: #fff;
     text-align: center;
+    color:white;
   }
   
   .hero-content {
@@ -99,9 +99,8 @@ body, h1, h2, h3, p, ul, li, form {
     justify-content: space-between;
   }
   
-  .brand {
-    max-width: 15px;
-    max-height: 10px;
+  .brand img{
+    width:170px;
   }
   
   footer {
